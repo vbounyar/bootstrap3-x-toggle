@@ -1,0 +1,18 @@
+/* styles */
+body {
+  padding-top: 50px;
+}
+
+/* The below selector hides the hamburger icon when clicked on */
+.navbar-toggle:not(.collapsed) span.icon-bar{
+  display:none;
+}
+
+/* Hide the x icon until the nav toggle is not clicked on */
+.hidden {display:none;}
+
+/* Override the x icon's initial hidden when nav toggle is clicked on */
+.navbar-toggle:not(.collapsed) span.glyphicon.glyphicon-remove {
+  display: block !important;
+  color: white;
+}
